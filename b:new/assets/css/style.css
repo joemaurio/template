@@ -1,0 +1,62 @@
+/*general*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+.inlbloc{display: inline-block;}
+.txt-center{text-align: center;}
+.bg-A{background-color: rgba(124,25,37,0.5);}
+.bg-B{background-color: rgba(14,25,37,0.7);}
+.bg-C{background-color: rgba(124,25,37,0.5);}
+.bg-D{background-color: rgba(24,125,37,0.7);}
+.bg-E{background-color: rgba(14,25,7,0.9);}
+.pad-1{padding: 1em;}
+.pad-2{padding: 2em;}
+.pad-3{padding: 3em;}
+.pad-4{padding: 4em;}
+.pad-5{padding: 5em;}
+.pad-6{padding: 6em;}
+.pad-b-1{padding-bottom: 1em;}
+.pad-b-2{padding-bottom: 2em;}
+.pad-b-3{padding-bottom: 3em;}
+.pad-b-4{padding-bottom: 4em;}
+.pad-b-5{padding-bottom: 5em;}
+.pad-b-6{padding-bottom: 6em;}
+.flx-d-co{display: flex;flex-direction: column;}
+
+h2{border-bottom: 3px double green;padding-bottom: 10px;}
+
+/*header*/
+header{background-color:rgba(25,30,58,0.7); ;padding: 8em 0 6em 0;
+		text-align: center;max-height: 150vh;}
+h1{background-color: ;padding:8em 0 6em 0;border-left-style: solid;border-right-style: solid;border-top-style: double;border-bottom-style: double;border-width: 1em;border-color: #fff; margin: auto 25%;}
+header p{padding: 3em;}
+header a{padding: 1em;background-color:#00cdcf ;}
+
+
+/*main*/
+
+
+
+/*section 1*/
+main section:first-child{display: flex;flex-direction: column;align-items: center;}
+main section:first-child div:last-child{background-color:;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
+.blocks1{padding: 2em 0 2em 0;background-color: ;}
+.blocs1{padding: 7em;width: 15%;border:1px solid green;background-color: ;}
+
+/*section 2*/
+main section:nth-child(2){display: flex;flex-direction: column;align-items: center;}
+main section:nth-child(2) form{display: flex;flex-direction: column;flex-wrap: wrap;}
+/*main section:nth-child(2) form .children:nth-of-type(1) {  }
+main section:nth-child(2) form .children:nth-of-type(2) { ; }
+main section:nth-child(2) form .children:nth-of-type(3) {  }
+.children{padding: }*/
+main section:nth-child(2) form label,main section:nth-child(2) form input,main section:nth-child(2) form textarea{display: block;}
+.titre{margin: 4em 0 2em 0;}
+.ali-it-center{align-items: center;}
+.child{flex-basis: 100%}
+.dd{align-self: center;}
